@@ -1,7 +1,10 @@
-# Practica4_2
+# Practica4
 
-# YOUTUBE VIDEO: 
+# YOUTUBE VIDEO: https://youtu.be/cKM_2riVPr0
 # MANDATO
+
+(Se piden disculpas por no poder ofrecer una mejor calidad de camara)
+
 
 Crear un Login de usuarios donde se podrán ingresar con usuario y contraseña (al 
 escribir la contraseña esta debe ocultarse), si el usuario no está registrado se podrá 
@@ -10,6 +13,15 @@ número de teléfono, correo electrónico, contraseña, confirmar contraseña). 
 el usuario accede ingresando una contraseña y un usuario ya registrado se cierra la 
 ventana de login y se muestra una ventana diferente con un listado de todos los 
 usuarios registrados, sus nombres, número de teléfono y correo electrónico.
+
+
+____________________________________________________________________________________________________________
+
+Se piden disculpas por la calidad del video y de la camara, pues mi pc no tiene camara y se procedio a utilizar
+la camara del movil mediante una conexion a internet, la cual baja bastante la calidad del video.
+____________________________________________________________________________________________________________
+
+
 
 # REQUISITOS DESEADOS POR EL MAESTRO
 • Si se presiona un botón de iniciar sección y alguno de los campos no está 
