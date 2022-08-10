@@ -45,17 +45,20 @@ public class FrmLogin extends javax.swing.JFrame {
         Jcontra = new javax.swing.JPasswordField();
         LOGIN = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
+        chkMostrarpassword = new javax.swing.JCheckBox();
         jLabel4 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jPanel1.setBackground(java.awt.SystemColor.activeCaptionBorder);
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        txtUsuario.setBackground(new java.awt.Color(23, 24, 30));
+        txtUsuario.setFont(new java.awt.Font("Segoe UI", 3, 12)); // NOI18N
+        txtUsuario.setForeground(new java.awt.Color(255, 255, 255));
         txtUsuario.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtUsuario.setBorder(null);
         txtUsuario.addActionListener(new java.awt.event.ActionListener() {
@@ -63,16 +66,24 @@ public class FrmLogin extends javax.swing.JFrame {
                 txtUsuarioActionPerformed(evt);
             }
         });
-        jPanel1.add(txtUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 170, 155, 34));
+        jPanel1.add(txtUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 150, 230, 30));
 
+        Jcontra.setBackground(new java.awt.Color(23, 24, 30));
+        Jcontra.setFont(new java.awt.Font("Segoe UI", 3, 12)); // NOI18N
+        Jcontra.setForeground(new java.awt.Color(255, 255, 255));
+        Jcontra.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        Jcontra.setBorder(null);
         Jcontra.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 JcontraActionPerformed(evt);
             }
         });
-        jPanel1.add(Jcontra, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 260, 155, 50));
+        jPanel1.add(Jcontra, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 210, 230, 30));
 
-        LOGIN.setText("Logearme");
+        LOGIN.setBackground(new java.awt.Color(23, 24, 30));
+        LOGIN.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/Login.png"))); // NOI18N
+        LOGIN.setToolTipText("");
+        LOGIN.setBorder(null);
         LOGIN.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 LOGINMouseClicked(evt);
@@ -83,31 +94,41 @@ public class FrmLogin extends javax.swing.JFrame {
                 LOGINActionPerformed(evt);
             }
         });
-        jPanel1.add(LOGIN, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 330, -1, -1));
+        jPanel1.add(LOGIN, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 270, 180, 30));
 
-        jButton2.setText("Registrarme");
+        jButton2.setBackground(new java.awt.Color(23, 24, 30));
+        jButton2.setForeground(new java.awt.Color(255, 255, 255));
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/Create a account (1).png"))); // NOI18N
+        jButton2.setBorder(null);
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 430, 166, 64));
+        jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 460, 240, 30));
 
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/Rectangle 4.png"))); // NOI18N
-        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 130, 500, 90));
+        chkMostrarpassword.setForeground(new java.awt.Color(255, 255, 255));
+        chkMostrarpassword.setText("Mostrar password");
+        chkMostrarpassword.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                chkMostrarpasswordActionPerformed(evt);
+            }
+        });
+        jPanel1.add(chkMostrarpassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 220, -1, -1));
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/Sign In!.png"))); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/baseline_lock_white_48dp.png"))); // NOI18N
+        jLabel4.setText("jLabel4");
+        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 200, 50, 50));
+
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/baseline_account_circle_white_48dp.png"))); // NOI18N
         jLabel3.setText("jLabel3");
-        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 60, 130, 50));
+        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 140, 50, 40));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/Vector.png"))); // NOI18N
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 30, 160, 110));
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 40, 60, 60));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/Rectangle 2.png"))); // NOI18N
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 970, 520));
-
-        jLabel5.setText("vacio");
-        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 50, -1, -1));
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/Desktop - 1 (3).png"))); // NOI18N
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 500));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -168,6 +189,23 @@ public class FrmLogin extends javax.swing.JFrame {
 
         // TODO add your handling code here:
     }//GEN-LAST:event_LOGINMouseClicked
+
+    private void chkMostrarpasswordActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_chkMostrarpasswordActionPerformed
+
+
+
+
+    
+        if(chkMostrarpassword.isSelected()){
+            Jcontra.setEchoChar((char)0);
+            
+        }else{
+            Jcontra.setEchoChar('*');
+        
+        }
+
+        // TODO add your handling code here:
+    }//GEN-LAST:event_chkMostrarpasswordActionPerformed
 
     /**
      * @param args the command line arguments
@@ -364,12 +402,12 @@ public class FrmLogin extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPasswordField Jcontra;
     private javax.swing.JButton LOGIN;
+    private javax.swing.JCheckBox chkMostrarpassword;
     private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JTextField txtUsuario;
     // End of variables declaration//GEN-END:variables

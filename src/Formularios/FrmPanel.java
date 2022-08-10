@@ -316,8 +316,48 @@ public class FrmPanel extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    
+    
+    public void eliminarRegistros(){
+        
+        int filaSeleccionada=tablaUsuarios.getSelectedRow();
+            
+        
+        try {
+            
+            String SQL="delete from usuarios where id="+tablaUsuarios.getValueAt(filaSeleccionada,0);
+            Statement st=(Statement) con.createStatement();
+            int n=st.executeUpdate(SQL);
+            
+            if(n<=0){
+            
+                JOptionPane.showMessageDialog(null,"Registro eliminado");
+            
+            }
+        } catch (Exception e) {
+            
+                            JOptionPane.showMessageDialog(null,"Registro eliminado" + e.getMessage());
+        }
+        }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     private void btnEliminarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEliminarActionPerformed
-        // TODO add your handling code here:
+
+
+    eliminarRegistros();
+    mostrarDatos();
+    // TODO add your handling code here:
     }//GEN-LAST:event_btnEliminarActionPerformed
 
     private void txtNombreActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtNombreActionPerformed
