@@ -71,6 +71,8 @@ public class FrmPanel extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(0, 0, 0));
 
+        jPanel2.setBackground(new java.awt.Color(102, 102, 102));
+
         tablaUsuarios.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {},
