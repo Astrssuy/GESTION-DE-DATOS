@@ -1,6 +1,7 @@
 # Practica4
 
-# YOUTUBE VIDEO: https://youtu.be/cKM_2riVPr0
+# YOUTUBE VIDEO: 
+
 # MANDATO
 
 (Se piden disculpas por no poder ofrecer una mejor calidad de camara)
