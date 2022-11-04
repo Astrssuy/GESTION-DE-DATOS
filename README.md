@@ -1,12 +1,10 @@
-# Gestion de datos, con control en el login
-
-# YOUTUBE VIDEO: 
-
-# MANDATO
-
-(Se piden disculpas por no poder ofrecer una mejor calidad de camara)
+# GESTION DE USUARIOS Y/O DATOS REGISTRADOS EN EL ENTORNO.
 
 
+
+SE TOMO EN CUENTA LO SIGUIENTE PARA LA CREACION DEL PROGRAMA:
+
+___________________________________________________________________________________________________________
 Crear un Login de usuarios donde se podrán ingresar con usuario y contraseña (al 
 escribir la contraseña esta debe ocultarse), si el usuario no está registrado se podrá 
 registrar ingresando los siguientes campos (nombre de usuario, nombre, apellido, 
@@ -18,13 +16,8 @@ usuarios registrados, sus nombres, número de teléfono y correo electrónico.
 
 ____________________________________________________________________________________________________________
 
-Se piden disculpas por la calidad del video y de la camara, pues mi pc no tiene camara y se procedio a utilizar
-la camara del movil mediante una conexion a internet, la cual baja bastante la calidad del video.
-____________________________________________________________________________________________________________
 
-
-
-# REQUISITOS DESEADOS POR EL MAESTRO
+# INFORMACION COMPLEMENTARIA
 • Si se presiona un botón de iniciar sección y alguno de los campos no está 
 lleno me muestra un mensaje de error indicando “debe ingresar su usuario 
 y contraseña, si no está registrado debe registrarse”.
